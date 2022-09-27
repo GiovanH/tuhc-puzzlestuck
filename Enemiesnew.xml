@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EnemyList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link type="text/css" id="dark-mode" rel="stylesheet"/><style type="text/css" id="dark-mode-custom-style"/>
+	<Enemy FrameID="1" EnemyName="John Egbert, Heir of Breath" Color="2" Type="Sburb Hero">
+		<MaxHP>21600</MaxHP>
+		<MaxATK>4400</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>4</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="2" EnemyName="Rose Lalonde, Seer of Light" Color="1" Type="Sburb Hero">
+		<MaxHP>13600</MaxHP>
+		<MaxATK>1900</MaxATK>
+		<MaxDEF>1700</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="3" EnemyName="Dave Strider, Knight of Time" Color="3" Type="Sburb Hero">
+		<MaxHP>16800</MaxHP>
+		<MaxATK>2000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="Freeze Time" AbilityType="Disable">
+			<Arg1>2</Arg1>
+			<Arg2>3</Arg2>
+			<Repeat>5</Repeat>
+			<Chance>1</Chance>
+			<Description>Disable a random Blue character for 3 turns</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="4" EnemyName="Jade Harley, Witch of Space" Color="4" Type="Sburb Hero">
+		<MaxHP>18400</MaxHP>
+		<MaxATK>2100</MaxATK>
+		<MaxDEF>200</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="Warp" AbilityType="EnemyGemSwap">
+			<Arg1>5</Arg1>
+			<Arg2>4</Arg2>
+			<Repeat>2</Repeat>
+			<Chance>1</Chance>
+			<Description>Turn all Skull orbs to Green</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="5" EnemyName="Shale Imp" Color="2" Type="Mob - Imp">
+		<MaxHP>3200</MaxHP>
+		<MaxATK>450</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>152</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="6" EnemyName="Chalk Imp" Color="1" Type="Mob - Imp">
+		<MaxHP>8</MaxHP>
+		<MaxATK>300</MaxATK>
+		<MaxDEF>1000</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>152</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="7" EnemyName="Amber Imp" Color="3" Type="Mob - Imp">
+		<MaxHP>1600</MaxHP>
+		<MaxATK>400</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>152</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="8" EnemyName="Uranium Imp" Color="4" Type="Mob - Imp">
+		<MaxHP>4800</MaxHP>
+		<MaxATK>400</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>251</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="9" EnemyName="Crude Ogre" Color="2" Type="Mob - Ogre">
+		<MaxHP>8000</MaxHP>
+		<MaxATK>1500</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>4</Turn>
+		<EXP>363</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="10" EnemyName="Lime Ogre" Color="1" Type="Mob - Ogre">
+		<MaxHP>30</MaxHP>
+		<MaxATK>600</MaxATK>
+		<MaxDEF>4000</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>363</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="11" EnemyName="Sulfur Ogre" Color="3" Type="Mob - Ogre">
+		<MaxHP>4800</MaxHP>
+		<MaxATK>1300</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>363</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="12" EnemyName="Plutonium Ogre" Color="4" Type="Mob - Ogre">
+		<MaxHP>8800</MaxHP>
+		<MaxATK>1650</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>443</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="13" EnemyName="Tar Basilisk" Color="2" Type="Mob - Basilisk">
+		<MaxHP>5600</MaxHP>
+		<MaxATK>600</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>251</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="14" EnemyName="Marble Basilisk" Color="1" Type="Mob - Basilisk">
+		<MaxHP>15</MaxHP>
+		<MaxATK>350</MaxATK>
+		<MaxDEF>2000</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>251</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="15" EnemyName="Melamine Basilisk" Color="3" Type="Mob - Basilisk">
+		<MaxHP>1600</MaxHP>
+		<MaxATK>650</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>251</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="16" EnemyName="Iridium Basilisk" Color="4" Type="Mob - Basilisk">
+		<MaxHP>6400</MaxHP>
+		<MaxATK>650</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>287</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="17" EnemyName="Copper Giclops" Color="2" Type="Mob - Giclops">
+		<MaxHP>50</MaxHP>
+		<MaxATK>10000</MaxATK>
+		<MaxDEF>4000</MaxDEF>
+		<Turn>5</Turn>
+		<EXP>1062</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="18" EnemyName="Caulk Lich" Color="1" Type="Mob - Lich">
+		<MaxHP>8000</MaxHP>
+		<MaxATK>7000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>1451</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="19" EnemyName="Hemasite" Color="3" Type="Mob - Boss">
+		<MaxHP>41600</MaxHP>
+		<MaxATK>1000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>1393</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="20" EnemyName="Acheron" Color="1" Type="Mob - Boss">
+		<MaxHP>24000</MaxHP>
+		<MaxATK>9000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>1451</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="21" EnemyName="Kraken" Color="2" Type="Mob - Boss">
+		<MaxHP>20800</MaxHP>
+		<MaxATK>4800</MaxATK>
+		<MaxDEF>1000</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1451</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="22" EnemyName="Lich Queen" Color="0" Type="Mob - Boss">
+		<MaxHP>14400</MaxHP>
+		<MaxATK>7000</MaxATK>
+		<MaxDEF>750</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1451</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="23" EnemyName="Aradia Megido, Maid of Time" Color="3" Type="Sgrub Hero">
+		<MaxHP>21600</MaxHP>
+		<MaxATK>2300</MaxATK>
+		<MaxDEF>400</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="freeze time" AbilityType="EnemyGemSwap">
+			<Arg1>5</Arg1>
+			<Arg2>3</Arg2>
+			<Repeat>1</Repeat>
+			<Chance>0.33</Chance>
+			<Description>Turn all Skull orbs to Red</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="24" EnemyName="Tavros Nitram, Page of Breath" Color="2" Type="Sgrub Hero">
+		<MaxHP>21600</MaxHP>
+		<MaxATK>9900</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>10</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="25" EnemyName="Sollux Captor, Mage of Doom" Color="3" Type="Sgrub Hero">
+		<MaxHP>17600</MaxHP>
+		<MaxATK>2200</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="take thii2!" AbilityType="MultiAttack">
+			<Arg1>2</Arg1>
+			<Arg2>1</Arg2>
+			<Repeat>2</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="26" EnemyName="Karkat Vantas, Knight of Blood" Color="3" Type="Sgrub Hero">
+		<MaxHP>26400</MaxHP>
+		<MaxATK>1900</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="27" EnemyName="Nepeta Leijon, Rogue of Heart" Color="3" Type="Sgrub Hero">
+		<MaxHP>15200</MaxHP>
+		<MaxATK>1600</MaxATK>
+		<MaxDEF>300</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="Ambush! :33" AbilityType="Pre-Damage">
+			<Arg1>1000</Arg1>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="28" EnemyName="Kanaya Maryam, Sylph of Space" Color="4" Type="Sgrub Hero">
+		<MaxHP>18400</MaxHP>
+		<MaxATK>2000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="Heal" AbilityType="Heal">
+			<Arg1>0.5</Arg1>
+			<Arg2>0.25</Arg2>
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="29" EnemyName="Terezi Pyrope, Seer of Mind" Color="4" Type="Sgrub Hero">
+		<MaxHP>16800</MaxHP>
+		<MaxATK>2200</MaxATK>
+		<MaxDEF>500</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="NOTH1NG G3TS P4ST M3!" AbilityType="Pre-Damage">
+			<Arg1>413</Arg1>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="30" EnemyName="Vriska Serket, Thief of Light" Color="0" Type="Sgrub Hero">
+		<MaxHP>24800</MaxHP>
+		<MaxATK>800</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="Lucky Br8k!" AbilityType="MultiAttack">
+			<Arg1>8</Arg1>
+			<Arg2>1</Arg2>
+			<Repeat>1</Repeat>
+			<Chance>0.5</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="31" EnemyName="Equius Zahhak, Heir of Void" Color="1" Type="Sgrub Hero">
+		<MaxHP>20000</MaxHP>
+		<MaxATK>2600</MaxATK>
+		<MaxDEF>500</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="Gathering STRENGTH..." AbilityType="Charge">
+			<Repeat>2</Repeat>
+			<Chance>1</Chance>
+			<Description>Storing power...</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="32" EnemyName="Gamzee Makara, Bard of Rage" Color="1" Type="Sgrub Hero">
+		<MaxHP>21600</MaxHP>
+		<MaxATK>2000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="you can't keep down the clown" AbilityType="Heal">
+			<Arg1>0.5</Arg1>
+			<Arg2>0.75</Arg2>
+			<Repeat>3</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="33" EnemyName="Eridan Ampora, Prince of Hope" Color="0" Type="Sgrub Hero">
+		<MaxHP>23200</MaxHP>
+		<MaxATK>4000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>4</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="34" EnemyName="Feferi Peixes, Witch of Life" Color="1" Type="Sgrub Hero">
+		<MaxHP>28160</MaxHP>
+		<MaxATK>1700</MaxATK>
+		<MaxDEF>200</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName=")(-ELLO TH-ER-E!" AbilityType="Wait">
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+			<Description>Feferi is -EXCIT-ED to S-E-E you!</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="35" EnemyName="The Handmaid" Color="4" Type="Ancestor">
+		<MaxHP>59600</MaxHP>
+		<MaxATK>2700</MaxATK>
+		<MaxDEF>500</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>1749</EXP>
+		<Ability AbilityName="Deliver death unto your enemies!" AbilityType="EnemyGemSwap">
+			<Arg1>4</Arg1>
+			<Arg2>5</Arg2>
+			<Repeat>2</Repeat>
+			<Chance>1</Chance>
+			<Description>Turn all Green orbs to Skull</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="36" EnemyName="The Summoner" Color="0" Type="Ancestor">
+		<MaxHP>44480</MaxHP>
+		<MaxATK>3000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>1873</EXP>
+		<Ability AbilityName="I'm not afraid of you!" AbilityType="MultiAttack">
+			<Arg1>6</Arg1>
+			<Arg2>1</Arg2>
+			<Repeat>2</Repeat>
+			<Chance>0.33</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="37" EnemyName="The Psioniic" Color="0" Type="Ancestor">
+		<MaxHP>22222</MaxHP>
+		<MaxATK>11111</MaxATK>
+		<MaxDEF>2222</MaxDEF>
+		<Turn>4</Turn>
+		<EXP>2063</EXP>
+		<Ability AbilityName="You'll never get past me!" AbilityType="Charge">
+			<Repeat>2</Repeat>
+			<Chance>1</Chance>
+			<Description>Storing power...</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="38" EnemyName="The Signless" Color="3" Type="Ancestor">
+		<MaxHP>53600</MaxHP>
+		<MaxATK>4500</MaxATK>
+		<MaxDEF>800</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>2192</EXP>
+		<Ability AbilityName="Violence is not the answer!" AbilityType="EnemyGemSwap">
+			<Arg1>5</Arg1>
+			<Arg2>3</Arg2>
+			<Repeat>3</Repeat>
+			<Chance>1</Chance>
+			<Description>Turn all Skull orbs to Red</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="39" EnemyName="The Disciple" Color="4" Type="Ancestor">
+		<MaxHP>72800</MaxHP>
+		<MaxATK>3000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>2391</EXP>
+		<Ability AbilityName="Double Swipe!" AbilityType="MultiAttack">
+			<Arg1>2</Arg1>
+			<Arg2>1</Arg2>
+			<Repeat>2</Repeat>
+			<Chance>0.2</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="40" EnemyName="The Dolorosa" Color="4" Type="Ancestor">
+		<MaxHP>77600</MaxHP>
+		<MaxATK>3450</MaxATK>
+		<MaxDEF>500</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>2458</EXP>
+		<Ability AbilityName="You've done well to come this far." AbilityType="Pre-Heal">
+			<Arg1>1</Arg1>
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="41" EnemyName="Neophyte Redglare" Color="4" Type="Ancestor">
+		<MaxHP>53600</MaxHP>
+		<MaxATK>3300</MaxATK>
+		<MaxDEF>413</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>2526</EXP>
+		<Ability AbilityName="d34th from 4bov3" AbilityType="MultiAttack">
+			<Arg1>1</Arg1>
+			<Arg2>3</Arg2>
+			<Repeat>3</Repeat>
+			<Chance>1</Chance>
+			<Description>Pyralspite lets loose a blast of fire!</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="42" EnemyName="Spinneret Mindfang" Color="2" Type="Ancestor">
+		<MaxHP>80800</MaxHP>
+		<MaxATK>8400</MaxATK>
+		<MaxDEF>800</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>2526</EXP>
+		<Ability AbilityName="Give me everything you've got!" AbilityType="EnemyGemSwap">
+			<Arg1>2</Arg1>
+			<Arg2>5</Arg2>
+			<Repeat>2</Repeat>
+			<Chance>0.5</Chance>
+			<Description>Turn all Blue orbs to Skulls</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="43" EnemyName="E%ecutor Darkleer" Color="2" Type="Ancestor">
+		<MaxHP>80800</MaxHP>
+		<MaxATK>9000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>4</Turn>
+		<EXP>2943</EXP>
+		<Ability AbilityName="E%ecute!" AbilityType="Pre-Damage">
+			<Arg1>9999</Arg1>
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="44" EnemyName="The Grand Highblood" Color="1" Type="Ancestor">
+		<MaxHP>48</MaxHP>
+		<MaxATK>30000</MaxATK>
+		<MaxDEF>20000</MaxDEF>
+		<Turn>4</Turn>
+		<EXP>2258</EXP>
+		<Ability AbilityName="TELL ME A JOKE" AbilityType="Wait">
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="45" EnemyName="Orphaner Dualscar" Color="1" Type="Ancestor">
+		<MaxHP>81200</MaxHP>
+		<MaxATK>9000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>3014</EXP>
+		<Ability AbilityName="You'll go no further than this!" AbilityType="Charge">
+			<Repeat>2</Repeat>
+			<Chance>1</Chance>
+			<Description>Storing power...</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="46" EnemyName="Her Imperious Condescension" Color="3" Type="Ancestor">
+		<MaxHP>100000</MaxHP>
+		<MaxATK>4000</MaxATK>
+		<MaxDEF>612</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>3829</EXP>
+		<Ability AbilityName="Your life belongs to me!" AbilityType="Drain">
+			<Arg1>5000</Arg1>
+			<Repeat>3</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="47" EnemyName="Cake" Color="2" Type="Mob - Trash">
+		<MaxHP>800</MaxHP>
+		<MaxATK>50</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>26</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="48" EnemyName="Wizard Statue" Color="1" Type="Mob - Trash">
+		<MaxHP>800</MaxHP>
+		<MaxATK>50</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>26</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="49" EnemyName="Shitty Sword" Color="3" Type="Mob - Trash">
+		<MaxHP>800</MaxHP>
+		<MaxATK>50</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>26</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="50" EnemyName="Pumpkin" Color="4" Type="Mob - Trash">
+		<MaxHP>800</MaxHP>
+		<MaxATK>50</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>26</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="51" EnemyName="Sassacre's Text" Color="2" Type="Mob - Trash">
+		<MaxHP>640</MaxHP>
+		<MaxATK>350</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>47</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="52" EnemyName="Eldritch Princess" Color="1" Type="Mob - Trash">
+		<MaxHP>640</MaxHP>
+		<MaxATK>350</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>47</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="53" EnemyName="Smuppet" Color="3" Type="Mob - Trash">
+		<MaxHP>640</MaxHP>
+		<MaxATK>350</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>47</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="54" EnemyName="Squiddle" Color="4" Type="Mob - Trash">
+		<MaxHP>640</MaxHP>
+		<MaxATK>350</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>47</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="55" EnemyName="Cruxite Apple" Color="2" Type="Mob - Trash">
+		<MaxHP>1600</MaxHP>
+		<MaxATK>200</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>70</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="56" EnemyName="Cruxite Bottle" Color="1" Type="Mob - Trash">
+		<MaxHP>1600</MaxHP>
+		<MaxATK>200</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>70</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="57" EnemyName="Cruxite Egg" Color="3" Type="Mob - Trash">
+		<MaxHP>1600</MaxHP>
+		<MaxATK>200</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>70</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="58" EnemyName="Cruxite Pinata" Color="4" Type="Mob - Trash">
+		<MaxHP>1600</MaxHP>
+		<MaxATK>200</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>70</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="59" EnemyName="Hephaestus" Color="3" Type="Denizen">
+		<MaxHP>23200</MaxHP>
+		<MaxATK>10000</MaxATK>
+		<MaxDEF>5000</MaxDEF>
+		<Turn>4</Turn>
+		<Weakness>10</Weakness>
+		<EXP>1811</EXP>
+		<Ability AbilityName="even as you seek to break me" AbilityType="Heal">
+			<Arg1>0.15</Arg1>
+			<Arg2>0.9</Arg2>
+			<Repeat>1</Repeat>
+			<Chance>0.33</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="60" EnemyName="Typheus" Color="2" Type="Denizen">
+		<MaxHP>63200</MaxHP>
+		<MaxATK>15000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<Weakness>10</Weakness>
+		<EXP>2324</EXP>
+		<Ability AbilityName="the eye of the storm" AbilityType="Wait">
+			<Repeat>3</Repeat>
+			<Chance>1</Chance>
+			<Description>Typheus rests for a turn...</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="61" EnemyName="Nemesis" Color="1" Type="Denizen">
+		<MaxHP>68000</MaxHP>
+		<MaxATK>2000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<Weakness>1</Weakness>
+		<EXP>2324</EXP>
+		<Ability AbilityName="the pride that comes before the fall" AbilityType="MultiAttack">
+			<Arg1>5</Arg1>
+			<Arg2>5</Arg2>
+			<Repeat>2</Repeat>
+			<Chance>0.5</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="62" EnemyName="Jormungandr" Color="3" Type="Denizen">
+		<MaxHP>50400</MaxHP>
+		<MaxATK>4000</MaxATK>
+		<MaxDEF>300</MaxDEF>
+		<Turn>1</Turn>
+		<Weakness>0</Weakness>
+		<EXP>2258</EXP>
+		<Ability AbilityName="relentless pursuit" AbilityType="Pre-Damage">
+			<Arg1>8000</Arg1>
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="63" EnemyName="Bastet" Color="4" Type="Denizen">
+		<MaxHP>58400</MaxHP>
+		<MaxATK>4600</MaxATK>
+		<MaxDEF>500</MaxDEF>
+		<Turn>2</Turn>
+		<Weakness>10</Weakness>
+		<EXP>2526</EXP>
+		<Ability AbilityName="the indomitable will of the heart" AbilityType="Heal">
+			<Arg1>1</Arg1>
+			<Arg2>0.2</Arg2>
+			<Repeat>1</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="64" EnemyName="Echidna" Color="4" Type="Denizen">
+		<MaxHP>74400</MaxHP>
+		<MaxATK>10</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<Weakness>0</Weakness>
+		<EXP>2324</EXP>
+		<Ability AbilityName="one thousand quills" AbilityType="MultiAttack">
+			<Arg1>10</Arg1>
+			<Arg2>999</Arg2>
+			<Repeat>1</Repeat>
+			<Chance>0.25</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="65" EnemyName="Sibyl" Color="2" Type="Denizen">
+		<MaxHP>26400</MaxHP>
+		<MaxATK>3500</MaxATK>
+		<MaxDEF>2500</MaxDEF>
+		<Turn>1</Turn>
+		<Weakness>0</Weakness>
+		<EXP>2127</EXP>
+		<Ability AbilityName="anticipates your every move" AbilityType="Drain Mana">
+			<Arg1>-1</Arg1>
+			<Arg2>1</Arg2>
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+			<Description>Destroys all collected orbs.</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="66" EnemyName="Cetus" Color="0" Type="Denizen">
+		<MaxHP>63200</MaxHP>
+		<MaxATK>7777</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<Weakness>10</Weakness>
+		<EXP>2258</EXP>
+		<Ability AbilityName="diving deep..." AbilityType="Charge">
+			<Repeat>3</Repeat>
+			<Chance>1</Chance>
+			<Description>Storing power...</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="67" EnemyName="Nyx" Color="1" Type="Denizen">
+		<MaxHP>77600</MaxHP>
+		<MaxATK>20000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>5</Turn>
+		<Weakness>0</Weakness>
+		<EXP>2391</EXP>
+		<Ability AbilityName="the night falls" AbilityType="EnemyGemSwap">
+			<Arg1>0</Arg1>
+			<Arg2>1</Arg2>
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+			<Description>Turn all Yellow orbs to Purple</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="68" EnemyName="Tartarus" Color="1" Type="Denizen">
+		<MaxHP>39200</MaxHP>
+		<MaxATK>2900</MaxATK>
+		<MaxDEF>2500</MaxDEF>
+		<Turn>2</Turn>
+		<Weakness>10</Weakness>
+		<EXP>2192</EXP>
+		<Ability AbilityName="i feed on your agony" AbilityType="Drain">
+			<Arg1>10000</Arg1>
+			<Repeat>2</Repeat>
+			<Chance>0.5</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="69" EnemyName="Abraxas" Color="4" Type="Denizen">
+		<MaxHP>37600</MaxHP>
+		<MaxATK>5100</MaxATK>
+		<MaxDEF>800</MaxDEF>
+		<Turn>3</Turn>
+		<Weakness>21</Weakness>
+		<EXP>2258</EXP>
+		<Ability AbilityName="prove that you are worthy" AbilityType="Pre-Damage">
+			<Arg1>20000</Arg1>
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="70" EnemyName="Hemera" Color="0" Type="Denizen">
+		<MaxHP>77600</MaxHP>
+		<MaxATK>20000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>5</Turn>
+		<Weakness>0</Weakness>
+		<EXP>2391</EXP>
+		<Ability AbilityName="the dawn breaks" AbilityType="EnemyGemSwap">
+			<Arg1>1</Arg1>
+			<Arg2>0</Arg2>
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+			<Description>Turn all Purple orbs to Yellow</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="71" EnemyName="Yaldabaoth" Color="0" Type="Denizen">
+		<MaxHP>2400</MaxHP>
+		<MaxATK>1300</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<Weakness>11</Weakness>
+		<EXP>251</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="72" EnemyName="Jane Crocker, Maid of Life" Color="2" Type="Sburb Hero">
+		<MaxHP>18880</MaxHP>
+		<MaxATK>2600</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="Heal" AbilityType="Heal">
+			<Arg1>0.5</Arg1>
+			<Arg2>0.25</Arg2>
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="73" EnemyName="Roxy Lalonde, Rogue of Void" Color="1" Type="Sburb Hero">
+		<MaxHP>10400</MaxHP>
+		<MaxATK>1900</MaxATK>
+		<MaxDEF>2500</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="74" EnemyName="Dirk Strider, Prince of Heart" Color="3" Type="Sburb Hero">
+		<MaxHP>16800</MaxHP>
+		<MaxATK>1500</MaxATK>
+		<MaxDEF>500</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="75" EnemyName="Jake English, Page of Hope" Color="0" Type="Sburb Hero">
+		<MaxHP>60</MaxHP>
+		<MaxATK>9000</MaxATK>
+		<MaxDEF>6000</MaxDEF>
+		<Turn>5</Turn>
+		<EXP>1169</EXP>
+		<Ability AbilityName="TALLY HO!" AbilityType="Wait">
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+			<Description>Jake greets you boisterously!</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="76" EnemyName="Itchy" Color="4" Type="The Felt">
+		<MaxHP>36800</MaxHP>
+		<MaxATK>550</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>1628</EXP>
+		<Ability AbilityName="Can't catch me!" AbilityType="MultiAttack">
+			<Arg1>5</Arg1>
+			<Arg2>4</Arg2>
+			<Repeat>1</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="77" EnemyName="Doze" Color="4" Type="The Felt">
+		<MaxHP>62400</MaxHP>
+		<MaxATK>8000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>99</Turn>
+		<EXP>1688</EXP>
+		<Ability AbilityType="none"/>
+	</Enemy>
+	<Enemy FrameID="78" EnemyName="Trace" Color="4" Type="The Felt">
+		<MaxHP>33333</MaxHP>
+		<MaxATK>333</MaxATK>
+		<MaxDEF>3333</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1509</EXP>
+		<Ability AbilityName="following your past trail..." AbilityType="Drain Mana">
+			<Arg1>-1</Arg1>
+			<Arg2>0.5</Arg2>
+			<Repeat>2</Repeat>
+			<Chance>1</Chance>
+			<Description>Decrease collected orbs of a random color by 50%</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="79" EnemyName="Clover" Color="0" Type="The Felt">
+		<MaxHP>8000</MaxHP>
+		<MaxATK>4000</MaxATK>
+		<MaxDEF>11111</MaxDEF>
+		<Turn>4</Turn>
+		<EXP>1811</EXP>
+		<Ability AbilityName="Wanna dance?" AbilityType="Wait">
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+			<Description>Clover starts a jig</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="80" EnemyName="Fin" Color="4" Type="The Felt">
+		<MaxHP>48000</MaxHP>
+		<MaxATK>3400</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>1749</EXP>
+		<Ability AbilityType="Reflect">
+			<Arg1>3</Arg1>
+			<Arg2>1</Arg2>
+			<Repeat>0</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="81" EnemyName="Die" Color="4" Type="The Felt">
+		<MaxHP>62400</MaxHP>
+		<MaxATK>1550</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>1999</EXP>
+		<Ability AbilityName="Pull Pin" AbilityType="Disable">
+			<Arg1>-1</Arg1>
+			<Arg2>3</Arg2>
+			<Repeat>1</Repeat>
+			<Chance>0.5</Chance>
+			<Description>Disable a character for 3 turns</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="82" EnemyName="Crowbar" Color="3" Type="The Felt">
+		<MaxHP>76800</MaxHP>
+		<MaxATK>4900</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>3</Turn>
+		<EXP>2458</EXP>
+		<Ability AbilityName="Crowbar" AbilityType="Custom">
+			<Description>Disable all abilities while in use</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="83" EnemyName="Stitch" Color="0" Type="The Felt">
+		<MaxHP>20800</MaxHP>
+		<MaxATK>4200</MaxATK>
+		<MaxDEF>5000</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>1936</EXP>
+		<Ability AbilityName="I don't have time for this shit." AbilityType="Heal">
+			<Arg1>0.5</Arg1>
+			<Arg2>0.25</Arg2>
+			<Repeat>1</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="84" EnemyName="Sawbuck" Color="2" Type="The Felt">
+		<MaxHP>50000</MaxHP>
+		<MaxATK>1500</MaxATK>
+		<MaxDEF>2500</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>2063</EXP>
+		<Ability AbilityName="Flesh Wound" AbilityType="Custom">
+			<Description>Transforms puzzleboard when attacked.</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="85" EnemyName="Matchsticks" Color="3" Type="The Felt">
+		<MaxHP>49600</MaxHP>
+		<MaxATK>5700</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>2258</EXP>
+		<Ability AbilityName="Fire Extinguisher" AbilityType="EnemyGemSwap">
+			<Arg1>3,5</Arg1>
+			<Arg2>4</Arg2>
+			<Repeat>1</Repeat>
+			<Chance>0.33</Chance>
+			<Description>Turn all Red and Skull orbs to Green</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="86" EnemyName="Eggs &amp; Biscuits" Color="1" Type="The Felt">
+		<MaxHP>121300</MaxHP>
+		<MaxATK>50</MaxATK>
+		<MaxDEF>500</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>3014</EXP>
+		<Ability AbilityName="Egg Timer" AbilityType="Custom">
+			<Description>Eggs and Biscuits travel back in time</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="87" EnemyName="Quarters" Color="4" Type="The Felt">
+		<MaxHP>49000</MaxHP>
+		<MaxATK>1400</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>2258</EXP>
+		<Ability AbilityName="Minigun" AbilityType="MultiAttack">
+			<Arg1>14</Arg1>
+			<Arg2>6</Arg2>
+			<Repeat>2</Repeat>
+			<Chance>1</Chance>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="88" EnemyName="Cans" Color="4" Type="The Felt">
+		<MaxHP>65600</MaxHP>
+		<MaxATK>4600</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>2391</EXP>
+		<Ability AbilityName="I'll punch you into next week!" AbilityType="Disable">
+			<Arg1>-1</Arg1>
+			<Arg2>7</Arg2>
+			<Repeat>2</Repeat>
+			<Chance>1</Chance>
+			<Description>Disable a character for 7 turns</Description>
+		</Ability>
+	</Enemy>
+	<Enemy FrameID="89" EnemyName="Snowman" Color="1" Type="Special">
+		<MaxHP>100000</MaxHP>
+		<MaxATK>2000</MaxATK>
+		<MaxDEF>0</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>2872</EXP>
+		<BossAbilities><Ability AbilityName="Dancing with Death" AbilityType="EnemyGemSwap">
+		<Arg1>4,1</Arg1>
+		<Arg2>5</Arg2>
+		<Repeat>2</Repeat>
+		<Chance>0.33</Chance>
+		<Description>Swap all Green and Purple orbs to Skull.</Description>
+	</Ability>
+	<Ability AbilityName="Lance" AbilityType="MultiAttack">
+		<Arg1>1</Arg1>
+		<Arg2>1</Arg2>
+		<Repeat>1</Repeat>
+		<Chance>0.25</Chance>
+	</Ability>
+	<Ability AbilityName="Impotence" AbilityType="Drain Mana">
+		<Arg1>-1</Arg1>
+		<Arg2>0.25</Arg2>
+		<Repeat>2</Repeat>
+		<Chance>0.33</Chance>
+		<Description>Decrease All collected orbs by 25%</Description>
+	</Ability>
+	<Ability AbilityName="Black Inches" AbilityType="MultiAttack">
+		<Arg1>3</Arg1>
+		<Arg2>0.5</Arg2>
+		<Repeat>1</Repeat>
+		<Chance>0.2</Chance>
+	</Ability>
+	<Ability AbilityName="Fatal Blow" AbilityType="Disable">
+		<Arg1>-1</Arg1>
+		<Arg2>5</Arg2>
+		<Repeat>1</Repeat>
+		<Chance>0.2</Chance>
+		<Description>Disable a random character for 5 turns.</Description>
+	</Ability></BossAbilities>
+	</Enemy>
+	<Enemy FrameID="90" EnemyName="Doc Scratch" Color="4" Type="Special">
+		<MaxHP>151200</MaxHP>
+		<MaxATK>2800</MaxATK>
+		<MaxDEF>1000</MaxDEF>
+		<Turn>1</Turn>
+		<EXP>3829</EXP>
+		<BossAbilities><Ability AbilityName="Welcome. Please, make yourself at home." AbilityType="Wait">
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+		<Description>Doc Scratch offers you some Scotty Dogs.</Description>
+	</Ability>
+	<Ability AbilityName="You think you can outsmart me?" AbilityType="Disable">
+		<Arg1>3</Arg1>
+		<Arg2>3</Arg2>
+		<Repeat>4</Repeat>
+		<Chance>0.5</Chance>
+		<Description>Disables a random Red character for 3 turns.</Description>
+	</Ability>
+	<Ability AbilityName="I know your every move!" AbilityType="Reflect">
+		<Arg1>5</Arg1>
+		<Arg2>0.1</Arg2>
+	</Ability>
+	<Ability AbilityName="Look what you've done. Now I'm MAD." AbilityType="Charge">
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+	</Ability>
+	<Ability AbilityName="I know your every move!" AbilityType="EnemyGemSwap">
+		<Arg1>5</Arg1>
+		<Arg2>2</Arg2>
+		<Repeat>2</Repeat>
+		<Chance>0.5</Chance>
+		<Description>Turn all Skull orbs to Blue</Description>
+	</Ability></BossAbilities>
+	</Enemy>
+	<Enemy FrameID="91" EnemyName="Lord English" Color="4" Type="Special">
+		<MaxHP>500000</MaxHP>
+		<MaxATK>2400</MaxATK>
+		<MaxDEF>500</MaxDEF>
+		<Turn>2</Turn>
+		<EXP>19147</EXP>
+		<BossAbilities><Ability AbilityName="I KNEW. YOU WERE COMING." AbilityType="Pre-Damage">
+		<Arg1>9999</Arg1>
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+	</Ability>
+	<Ability AbilityName="Siphon Energy" AbilityType="Drain Mana">
+		<Arg1>4</Arg1>
+		<Arg2>1</Arg2>
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+		<Description>Decrease collected Green orbs by 100%</Description>
+	</Ability>
+	<Ability AbilityName="GREEN SUN SCEPTER" AbilityType="MultiAttack">
+		<Arg1>1</Arg1>
+		<Arg2>1.5</Arg2>
+		<Repeat>1</Repeat>
+		<Chance>0.25</Chance>
+	</Ability>
+	<Ability AbilityName="Siphon Energy" AbilityType="Drain Mana">
+		<Arg1>0</Arg1>
+		<Arg2>1</Arg2>
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+		<Description>Decrease collected Yellow orbs by 100%</Description>
+	</Ability>
+	<Ability AbilityName="ASSAULT RIFLE" AbilityType="MultiAttack">
+		<Arg1>4</Arg1>
+		<Arg2>2.33</Arg2>
+		<Repeat>1</Repeat>
+		<Chance>0.25</Chance>
+	</Ability>
+	<Ability AbilityName="Siphon Energy" AbilityType="Drain Mana">
+		<Arg1>2</Arg1>
+		<Arg2>1</Arg2>
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+		<Description>Decrease collected Blue orbs by 100%</Description>
+	</Ability>
+	<Ability AbilityName="YOU ARE NO MATCH. FOR ME." AbilityType="Charge">
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+	</Ability>
+	<Ability AbilityName="Siphon Energy" AbilityType="Drain Mana">
+		<Arg1>1</Arg1>
+		<Arg2>1</Arg2>
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+		<Description>Decrease collected Purple orbs by 100%</Description>
+	</Ability>
+	<Ability AbilityName="RAMPAGE" AbilityType="Rampage">
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+		<Description>Lord English now attacks every turn.</Description>
+	</Ability>
+	<Ability AbilityName="Siphon Energy" AbilityType="Drain Mana">
+		<Arg1>3</Arg1>
+		<Arg2>1</Arg2>
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+		<Description>Decrease collected Red orbs by 100%</Description>
+	</Ability>
+	<Ability AbilityName="IT IS OVER. JUST GIVE UP!" AbilityType="Wait">
+		<Repeat>0</Repeat>
+		<Chance>1</Chance>
+		<Description>Lord English prepares to attack!</Description>
+	</Ability></BossAbilities>
+	</Enemy>
+</EnemyList>

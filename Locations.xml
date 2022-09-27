@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Locations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link type="text/css" id="dark-mode" rel="stylesheet"/><style type="text/css" id="dark-mode-custom-style"/>
+	<Location LocationName="Earth" LocationID="0">
+		<WaveInfo>47,51,55*48,52,56*49,53,57*50,54,58</WaveInfo>
+		<RewardInfo>40,43,46,49</RewardInfo>
+		<Description>You stand alone in your room. Today launches the highly anticipated game SBURB BETA. Difficulty: Trivial</Description>
+		<UnlockDescription>na</UnlockDescription>
+	</Location>
+	<Location LocationName="SBURB" LocationID="1">
+		<WaveInfo>5,6,7,8,9*5,14,8,9*6,6,14,10*7,5,8,11*8,15,16,12*13,14,15,16*5,6,13,9</WaveInfo>
+		<Description>Fight minions and climb the echeladder. Difficulty: Easy</Description>
+		<UnlockDescription>Unlock by reaching Level 10 with your starting character.</UnlockDescription>
+	</Location>
+	<Location LocationName="SGRUB" LocationID="2">
+		<WaveInfo>11,15,17,59*9,13,17,60*12,14,18,61*10,15,19,62*11,14,22,63*12,16,21,64*9,15,22,65*10,14,21,66*11,13,18,67*9,13,20,68*12,16,19,69*10,16,20,70</WaveInfo>
+		<Description>At the heart of each planet lies a Denizen. But there are no Choices here. Difficulty: High</Description>
+		<UnlockDescription>Unlock by defeating any enemy in the Dreambubble.</UnlockDescription>
+	</Location>
+	<Location LocationName="Alternia" LocationID="3">
+		<WaveInfo>35,36,37,38,39,40,41,42,43,44,45,46</WaveInfo>
+		<RewardInfo>67</RewardInfo>
+		<Description>Years in the past, but not many.... Difficulty: High to Very High</Description>
+		<UnlockDescription>Unlock by defeating any enemy in the Dreambubble.</UnlockDescription>
+	</Location>
+	<Location LocationName="Green Moon" LocationID="4">
+		<WaveInfo>76,77,79,84,86,88,89*80,81,83,85,78,87,82,90*91</WaveInfo>
+		<Description>Stop by for a friendly game of table stickball. Difficulty: Final Boss</Description>
+		<UnlockDescription>Unlock by defeating Her Imperious Condescension in Alternia.</UnlockDescription>
+	</Location>
+	<Location LocationName="Dreambubble" LocationID="5">
+		<WaveInfo>1*2*3*4*23*24*25*26*27*28*29*30*31*32*33*34*72*73*74*75</WaveInfo>
+		<RewardInfo>0,2,4,6,16,18,20,22,24,26,28,30,32,34,36,38,8,10,12,14</RewardInfo>
+		<Description>A crossroads for the dead and the not yet dead. Difficulty: Medium</Description>
+		<UnlockDescription>Unlock after beating SBURB for the first time.</UnlockDescription>
+	</Location>
+</Locations>

@@ -1,0 +1,335 @@
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, div {
+  margin: unset;
+  padding: unset;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+& {
+  font-family: unset;
+  font-size: unset;
+  font-weight: normal;
+  overflow-wrap: initial;
+}
+
+/*PUZZLESTUCK*/
+
+.container {
+  /*2px extra for swf border*/
+  max-width: 802px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*HEADER*/
+
+header .container {
+  padding-top: 20px;
+  padding-bottom: 3px;
+}
+
+.banner-img {
+  max-width: 100%;
+  margin: 30px 0 10px;
+}
+
+/*MAIN*/
+
+main .container {
+  padding-top: 5px;
+}
+
+.swf-wrapper {
+  /*2px extra for swf border*/
+  height: 482px;
+  padding: 1px;
+}
+
+main .save-warning {
+  text-align: center;
+  padding: 10px;
+  padding-right: 20px;
+  margin: 8px 0;
+}
+
+.save-warning .save-icon {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.save-warning p {
+  margin: 1px 0;
+}
+
+/*use modernizr to detect flash*/
+.no-flash .swf-wrapper,
+.no-flash .save-warning {
+  display: none;
+}
+
+main .flash-warning {
+  text-align: center;
+  padding: 20px 30px 10px 30px;
+  margin: 8px 0;
+}
+
+/*use modernizr to detect flash*/
+.flash main .flash-warning {
+  display: none;
+}
+
+.flash-warning i {
+  float: left;
+  margin: 5px 0 15px 0;
+}
+
+.flash-warning p {
+  margin: 0 0 20px;
+}
+
+.badges {
+  text-align: center;
+  margin: 12px 0 22px;
+}
+
+.badges ul {
+  list-style: none;
+  padding: 0;
+  /*hide spaces between inline-block children*/
+  font-size: 0;
+}
+
+.badges .badge {
+  display: inline-block;
+  line-height: 93px;
+}
+
+.badges .badge:nth-child(n+2) {
+  margin-left: 12px;
+}
+
+.badge a {
+  display: inline-block;
+  width: 191px;
+  height: 80px;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  /*hide link text*/
+  font-size: 0;
+}
+
+.badge a.homestuck-badge {
+  background-image: url(assets://mod/puzzlestuck/badge_ps_homestuck.png);
+}
+
+.badge a.music-badge {
+  background-image: url(assets://mod/puzzlestuck/badge_ps_music.png);
+}
+
+.badge a.help-badge {
+  background-image: url(assets://mod/puzzlestuck/badge_ps_help.png);
+}
+
+.badge a.games-badge {
+  background-image: url(assets://mod/puzzlestuck/badge_ps_games.png);
+}
+
+/*COLORS*/
+
+& {
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  background: #222222;
+  color: #eddda4;
+}
+
+a,
+header a,
+footer a {
+  color: #2d96ff;
+}
+
+a:hover,
+header a:hover,
+footer a:hover {
+  color: #98e748;
+}
+
+header {
+  background: #222222;
+}
+
+.swf-wrapper {
+  background-color: black;
+}
+
+.swf-wrapper object:focus {
+  outline: 0;
+}
+
+main .save-warning {
+  font-family: 'Courier New';
+  font-size: .89em;
+  color: #ccc;
+  /*for older browsers*/
+  background: #320A0A;
+  background: linear-gradient(to right, #171918 , #0F0C0C);
+  border-spacing: 1px solid black;
+}
+
+main .flash-warning {
+  font-family: 'Courier New';
+  font-size: .89em;
+  color: #ccc;
+  /*for older browsers*/
+  background: #320A0A;
+  background: linear-gradient(to right, #171918 , #0F0C0C);
+  border-spacing: 1px solid black;
+}
+
+.flash-warning i {
+  font-size: 58px;
+  color: #98e748;
+}
+
+.badges .badge a {
+  border: 1px solid black;
+}
+
+.credits ul {
+  border: 1px solid #98e748;
+  border-radius: 8px;
+}
+
+footer {
+  background: #161616;
+}
+
+/*stop narrower color from main.css from overriding footer background*/
+footer .container {
+  background: none;
+}
+
+
+/*GLOBAL*/
+
+/*used by headings that are needed for HTML5 document outline but not for visually browsing the site*/
+.invisible-but-outline-readable {
+  /*call attention if hiding isn't working*/
+  color: red;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+& {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 48px;
+  /*prevent child margin collapse*/
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  list-style: none;
+  /*remove space between inline-block children*/
+  font-size: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+/*HEADER*/
+
+header a {
+  display: inline-block;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+header .logo a {
+  padding-left: 0;
+}
+
+header nav {
+  float: right;
+}
+
+header nav a {
+  padding-right: 0;
+  padding-left: 32px;
+}
+
+/*CREDITS*/
+
+.credits ul {
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 25px 30px 25px 60px;
+}
+
+/*FOOTER*/
+
+footer {
+  text-align: center;
+}
+
+footer .container {
+  padding: 10px 0 20px;
+}
+
+footer a {
+  display: inline-block;
+  padding: 16px 16px;
+}
+
+footer nav a {
+  /*hide button text*/
+  font-size: 0;
+  padding: 0 8px;
+}
+
+footer nav .fa {
+  font-size: 40px;
+}
+
+

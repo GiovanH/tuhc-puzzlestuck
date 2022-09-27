@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<HeroList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link type="text/css" id="dark-mode" rel="stylesheet"/><style type="text/css" id="dark-mode-custom-style"/>
+	<Hero FrameID="1" HeroName="John Egbert" Type="Sburb BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5100</MaxHP>
+		<MaxATK>630</MaxATK>
+		<MinHP>450</MinHP>
+		<MinATK>80</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>0</PairBonus>
+		<Ability AbilityName="Hammertime" AbilityType="DamageFlat">
+			<Arg1>1200</Arg1>
+			<ManaCost>12</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Attack the enemy for 1200 damage.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="2" HeroName="John Egbert, Heir of Breath" Type="Sburb BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>8300</MaxHP>
+		<MaxATK>970</MaxATK>
+		<MinHP>2630</MinHP>
+		<MinATK>280</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>0</PairBonus>
+		<Ability AbilityName="Windy Thing" AbilityType="DamagePercent">
+			<Arg1>10</Arg1>
+			<ManaCost>24</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Attack the enemy for 10x of your ATK.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="3" HeroName="Rose Lalonde" Type="Sburb BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5400</MaxHP>
+		<MaxATK>680</MaxATK>
+		<MinHP>490</MinHP>
+		<MinATK>80</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="Dark Majjyks" AbilityType="GemSwap">
+			<Arg1>1</Arg1>
+			<Arg2>5</Arg2>
+			<ManaCost>24</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Turn all Purple orbs into Skull orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="4" HeroName="Rose Lalonde, Seer of Light" Type="Sburb BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>7400</MaxHP>
+		<MaxATK>920</MaxATK>
+		<MinHP>2230</MinHP>
+		<MinATK>260</MinATK>
+		<Color>1</Color>
+		<Color2>0</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Grimdark" AbilityType="GemSwap">
+			<Arg1>1,0</Arg1>
+			<Arg2>5</Arg2>
+			<ManaCost>24</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Turn all Purple and Yellow orbs into Skull orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="5" HeroName="Dave Strider" Type="Sburb BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5100</MaxHP>
+		<MaxATK>690</MaxATK>
+		<MinHP>450</MinHP>
+		<MinATK>80</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>1</PairBonus>
+		<Ability AbilityName="Flash Step" AbilityType="DamagePercent">
+			<Arg1>2</Arg1>
+			<ManaCost>6</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Attack the enemy for 2x of your ATK.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="6" HeroName="Dave Strider, Knight of Time" Type="Sburb BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>7400</MaxHP>
+		<MaxATK>1330</MaxATK>
+		<MinHP>2230</MinHP>
+		<MinATK>380</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>1</PairBonus>
+		<Ability AbilityName="Timekeeper" AbilityType="Delay">
+			<Arg1>3</Arg1>
+			<ManaCost>32</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Delay enemy for 3 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="7" HeroName="Jade Harley" Type="Sburb BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5800</MaxHP>
+		<MaxATK>740</MaxATK>
+		<MinHP>550</MinHP>
+		<MinATK>80</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="Dream" AbilityType="DamageGems">
+			<Arg1>1,0</Arg1>
+			<Arg2>100</Arg2>
+			<ManaCost>16</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Clear all Purple and Yellow orbs and deal 50 damage for each.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="8" HeroName="Jade Harley, Witch of Space" Type="Sburb BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>8800</MaxHP>
+		<MaxATK>1110</MaxATK>
+		<MinHP>2870</MinHP>
+		<MinATK>320</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Warp" AbilityType="CollectGem">
+			<Arg1>1,0,2,4,3</Arg1>
+			<ManaCost>24</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Collect all colored orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="9" HeroName="Jane Crocker" Type="Sburb ALPHA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5500</MaxHP>
+		<MaxATK>580</MaxATK>
+		<MinHP>510</MinHP>
+		<MinATK>30</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>0,9</PairBonus>
+		<Ability AbilityName="Crockercharge" AbilityType="DamageGems">
+			<Arg1>3</Arg1>
+			<Arg2>500</Arg2>
+			<ManaCost>16</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Clear all Red orbs and deal 500 damage for each one.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="10" HeroName="Jane Crocker, Maid of Life" Type="Sburb ALPHA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>9600</MaxHP>
+		<MaxATK>1100</MaxATK>
+		<MinHP>3180</MinHP>
+		<MinATK>320</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>0,9</PairBonus>
+		<Ability AbilityName="Revitalize" AbilityType="HealGems">
+			<Arg1>3</Arg1>
+			<Arg2>2000</Arg2>
+			<ManaCost>25</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Clear all Red orbs and heal 2000 HP for each.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="11" HeroName="Roxy Lalonde" Type="Sburb ALPHA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>7600</MaxHP>
+		<MaxATK>430</MaxATK>
+		<MinHP>810</MinHP>
+		<MinATK>20</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="Sleepwalker" AbilityType="Defend">
+			<Arg1>0.5</Arg1>
+			<Arg2>1</Arg2>
+			<ManaCost>16</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Reduce damage taken by 50% for 1 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="12" HeroName="Roxy Lalonde, Rogue of Void" Type="Sburb ALPHA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>10100</MaxHP>
+		<MaxATK>810</MaxATK>
+		<MinHP>3420</MinHP>
+		<MinATK>230</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Disappearify" AbilityType="Defend">
+			<Arg1>1</Arg1>
+			<Arg2>1</Arg2>
+			<ManaCost>20</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Reduce damage taken by 100% for 1 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="13" HeroName="Dirk Strider" Type="Sburb ALPHA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5100</MaxHP>
+		<MaxATK>690</MaxATK>
+		<MinHP>450</MinHP>
+		<MinATK>40</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>2,1</PairBonus>
+		<Ability AbilityName="Confound" AbilityType="DEFBreak">
+			<Arg1>0.70</Arg1>
+			<Arg2>2</Arg2>
+			<ManaCost>16</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Lower enemy Defense by 70% for 2 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="14" HeroName="Dirk Strider, Prince of Heart" Type="Sburb ALPHA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>6800</MaxHP>
+		<MaxATK>1270</MaxATK>
+		<MinHP>2000</MinHP>
+		<MinATK>360</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>2,1</PairBonus>
+		<Ability AbilityName="Destroyer of Souls" AbilityType="DEFBreak">
+			<Arg1>0.8</Arg1>
+			<Arg2>2</Arg2>
+			<ManaCost>16</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Lower enemy Defense by 80% for 2 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="15" HeroName="Jake English" Type="Sburb ALPHA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5100</MaxHP>
+		<MaxATK>630</MaxATK>
+		<MinHP>450</MinHP>
+		<MinATK>40</MinATK>
+		<Color>0</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="Cheer" AbilityType="HealFlat">
+			<Arg1>1111</Arg1>
+			<ManaCost>30</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Heal 1111 HP.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="16" HeroName="Jake English, Page of Hope" Type="Sburb ALPHA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>8300</MaxHP>
+		<MaxATK>1040</MaxATK>
+		<MinATK>300</MinATK>
+		<Color>0</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="CHEER" AbilityType="HealFlat">
+			<Arg1>99999</Arg1>
+			<ManaCost>30</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Heal 99999 HP.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="17" HeroName="Aradia Megido" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5200</MaxHP>
+		<MaxATK>770</MaxATK>
+		<MinHP>470</MinHP>
+		<MinATK>40</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>3</PairBonus>
+		<Ability AbilityName="Haunt" AbilityType="Delay">
+			<Arg1>1</Arg1>
+			<ManaCost>16</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Delay enemy for 1 turn.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="18" HeroName="Aradia Megido, Maid of Time" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>8500</MaxHP>
+		<MaxATK>1290</MaxATK>
+		<MinHP>2710</MinHP>
+		<MinATK>370</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>3</PairBonus>
+		<Ability AbilityName="Haunt" AbilityType="Delay">
+			<Arg1>1</Arg1>
+			<ManaCost>16</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Delay enemy for 1 turn.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="19" HeroName="Tavros Nitram" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5100</MaxHP>
+		<MaxATK>630</MaxATK>
+		<MinHP>450</MinHP>
+		<MinATK>40</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>3,1</PairBonus>
+		<Ability AbilityName="Lance" AbilityType="DamageFlat">
+			<Arg1>300</Arg1>
+			<ManaCost>10</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Attack the enemy for 300 damage.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="20" HeroName="Tavros Nitram, Page of Breath" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>9700</MaxHP>
+		<MaxATK>1210</MaxATK>
+		<MinHP>3220</MinHP>
+		<MinATK>350</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>3,1</PairBonus>
+		<Ability AbilityName="Boy Skylark!" AbilityType="Inspire">
+			<Arg1>3</Arg1>
+			<Arg2>1</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Increase team ATK by 3x for 1 turn.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="21" HeroName="Sollux Captor" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>3200</MaxHP>
+		<MaxATK>520</MaxATK>
+		<MinHP>180</MinHP>
+		<MinATK>30</MinATK>
+		<Color>3</Color>
+		<Color2>2</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="twinarmageddons" AbilityType="GemSwap">
+			<Arg1>3,2</Arg1>
+			<Arg2>5</Arg2>
+			<ManaCost>22</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Turn all Red and Blue orbs into Skull orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="22" HeroName="Sollux Captor, Mage of Doom" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>6400</MaxHP>
+		<MaxATK>1150</MaxATK>
+		<MinHP>1050</MinHP>
+		<MinATK>330</MinATK>
+		<Color>3</Color>
+		<Color2>2</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Doom" AbilityType="GemSwap">
+			<Arg1>3,2,4,0,1</Arg1>
+			<Arg2>5</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Turn all colored orbs into Skull orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="23" HeroName="Karkat Vantas" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5100</MaxHP>
+		<MaxATK>660</MaxATK>
+		<MinHP>450</MinHP>
+		<MinATK>40</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="Resolve" AbilityType="Resolve">
+			<Arg1>0.3</Arg1>
+			<Arg2>99</Arg2>
+			<ManaCost>24</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Do not die if HP is above 30% when hit.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="24" HeroName="Karkat Vantas, Knight of Blood" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>8700</MaxHP>
+		<MaxATK>1090</MaxATK>
+		<MinHP>2830</MinHP>
+		<MinATK>310</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Resolve" AbilityType="Resolve">
+			<Arg1>0.15</Arg1>
+			<Arg2>99</Arg2>
+			<ManaCost>24</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Do not die if HP is above 15% when hit.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="25" HeroName="Nepeta Leijon" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5100</MaxHP>
+		<MaxATK>630</MaxATK>
+		<MinHP>450</MinHP>
+		<MinATK>40</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>4,7</PairBonus>
+		<Ability AbilityName="Pounce" AbilityType="DEFBreak">
+			<Arg1>0.5</Arg1>
+			<Arg2>3</Arg2>
+			<ManaCost>16</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Lower enemy Defense by 50% for 3 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="26" HeroName="Nepeta Leijon, Rogue of Heart" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>8300</MaxHP>
+		<MaxATK>1150</MaxATK>
+		<MinHP>2630</MinHP>
+		<MinATK>330</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>4,7</PairBonus>
+		<Ability AbilityName="Pounce" AbilityType="DEFBreak">
+			<Arg1>0.66</Arg1>
+			<Arg2>3</Arg2>
+			<ManaCost>16</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Lower enemy Defense by 66% for 3 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="27" HeroName="Kanaya Maryam" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>4100</MaxHP>
+		<MaxATK>520</MaxATK>
+		<MinHP>320</MinHP>
+		<MinATK>30</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="Chainsaw" AbilityType="DamageFlat">
+			<Arg1>4000</Arg1>
+			<ManaCost>16</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Attack the enemy for 4000 damage.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="28" HeroName="Kanaya Maryam, Sylph of Space" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>7400</MaxHP>
+		<MaxATK>920</MaxATK>
+		<MinHP>2230</MinHP>
+		<MinATK>260</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Rainbow Drinker" AbilityType="Lifesteal">
+			<Arg1>5</Arg1>
+			<Arg2>1.0</Arg2>
+			<ManaCost>16</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Deal 5x of your ATK and heal for 100% of damage dealt.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="29" HeroName="Terezi Pyrope" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>6100</MaxHP>
+		<MaxATK>620</MaxATK>
+		<MinHP>590</MinHP>
+		<MinATK>40</MinATK>
+		<Color>4</Color>
+		<Color2>3</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>5</PairBonus>
+		<Ability AbilityName="BL1ND JUST1C3" AbilityType="Gravity">
+			<Arg1>0.143</Arg1>
+			<ManaCost>32</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Attack enemy for damage equal to 14.3% of their MAX HP. Ignores Defense.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="30" HeroName="Terezi Pyrope, Seer of Mind" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>9200</MaxHP>
+		<MaxATK>1040</MaxATK>
+		<MinHP>3020</MinHP>
+		<MinATK>300</MinATK>
+		<Color>4</Color>
+		<Color2>3</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>5</PairBonus>
+		<Ability AbilityName="BL1ND JUST1C3" AbilityType="Gravity">
+			<Arg1>0.143</Arg1>
+			<ManaCost>32</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Attack enemy for damage equal to 14.3% of their MAX HP. Ignores Defense.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="31" HeroName="Vriska Serket" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>5500</MaxHP>
+		<MaxATK>690</MaxATK>
+		<MinHP>510</MinHP>
+		<MinATK>40</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>5,6</PairBonus>
+		<Ability AbilityName="Black Oracle" AbilityType="Random">
+			<Arg1>0.01</Arg1>
+			<Arg2>10</Arg2>
+			<ManaCost>20</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Attack for random damage between 0.01x and 10x of your ATK.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="32" HeroName="Vriska Serket, Thief of Light" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>7300</MaxHP>
+		<MaxATK>910</MaxATK>
+		<MinHP>2190</MinHP>
+		<MinATK>260</MinATK>
+		<Color>0</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>5,6</PairBonus>
+		<Ability AbilityName="Fluorite Octet" AbilityType="Random">
+			<Arg1>1</Arg1>
+			<Arg2>30</Arg2>
+			<ManaCost>20</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Attack for random damage between 1x and 30x of your ATK.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="33" HeroName="Equius Zahhak" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>3800</MaxHP>
+		<MaxATK>560</MaxATK>
+		<MinHP>260</MinHP>
+		<MinATK>30</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>4,2</PairBonus>
+		<Ability AbilityName="Protect" AbilityType="Defend">
+			<Arg1>0.33</Arg1>
+			<Arg2>5</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Reduce damage taken by 33% for 5 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="34" HeroName="Equius Zahhak, Heir of Void" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>7200</MaxHP>
+		<MaxATK>1030</MaxATK>
+		<MinHP>2160</MinHP>
+		<MinATK>290</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>4,2</PairBonus>
+		<Ability AbilityName="Protect" AbilityType="Defend">
+			<Arg1>0.4</Arg1>
+			<Arg2>5</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Reduce damage taken by 40% for 5 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="35" HeroName="Gamzee Makara" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>8700</MaxHP>
+		<MaxATK>470</MaxATK>
+		<MinHP>970</MinHP>
+		<MinATK>30</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>1</PairBonus>
+		<Ability AbilityName="Pie High" AbilityType="HealGems">
+			<Arg1>4</Arg1>
+			<Arg2>420</Arg2>
+			<ManaCost>12</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Clear all Green orbs and heal 420 HP for each.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="36" HeroName="Gamzee Makara, Bard of Rage" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>10100</MaxHP>
+		<MaxATK>810</MaxATK>
+		<MinHP>3420</MinHP>
+		<MinATK>280</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>1</PairBonus>
+		<Ability AbilityName="Unkillable" AbilityType="HealGems">
+			<Arg1>0,1,2,3,4,5</Arg1>
+			<Arg2>300</Arg2>
+			<ManaCost>24</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Clear all orbs and heal 300 HP for each.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="37" HeroName="Eridan Ampora" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>4000</MaxHP>
+		<MaxATK>530</MaxATK>
+		<MinHP>300</MinHP>
+		<MinATK>30</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>6</PairBonus>
+		<Ability AbilityName="Ahab's Crosshairs" AbilityType="DamageFlat">
+			<Arg1>5000</Arg1>
+			<ManaCost>20</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Attack the enemy for 5000 damage.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="38" HeroName="Eridan Ampora, Prince of Hope" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>7800</MaxHP>
+		<MaxATK>980</MaxATK>
+		<MinHP>2430</MinHP>
+		<MinATK>280</MinATK>
+		<Color>0</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>6</PairBonus>
+		<Ability AbilityName="Grudge" AbilityType="Grudge">
+			<Arg1>20000</Arg1>
+			<ManaCost>20</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Attack for up to 20000 damage, based on current HP%.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="39" HeroName="Feferi Peixes" Type="Sgrub BETA">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>6600</MaxHP>
+		<MaxATK>700</MaxATK>
+		<MinHP>670</MinHP>
+		<MinATK>40</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="Cull" AbilityType="HealGems">
+			<Arg1>5</Arg1>
+			<Arg2>1000</Arg2>
+			<ManaCost>16</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Clear all Skull orbs and heal 1000 HP for each.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="40" HeroName="Feferi Peixes, Witch of Life" Type="Sgrub BETA">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>9400</MaxHP>
+		<MaxATK>1070</MaxATK>
+		<MinHP>3100</MinHP>
+		<MinATK>310</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Cull" AbilityType="HealGems">
+			<Arg1>5</Arg1>
+			<Arg2>2000</Arg2>
+			<ManaCost>20</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Clear all Skull orbs and heal 2000 HP for each.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="41" HeroName="Cyan Kernelsprite" Type="Sprite">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>10</MaxLevel>
+		<MaxHP>2200</MaxHP>
+		<MaxATK>70</MaxATK>
+		<MinHP>120</MinHP>
+		<MinATK>10</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>0</PairBonus>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Hero>
+	<Hero FrameID="42" HeroName="Harlequinsprite" Type="Sprite">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>30</MaxLevel>
+		<MaxHP>3700</MaxHP>
+		<MaxATK>150</MaxATK>
+		<MinHP>230</MinHP>
+		<MinATK>40</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>0</PairBonus>
+		<Ability AbilityName="Assist" AbilityType="GemSwap">
+			<Arg1>0</Arg1>
+			<Arg2>2</Arg2>
+			<ManaCost>8</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Turn all Yellow orbs into Blue orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="43" HeroName="Nannasprite" Type="Sprite">
+		<EvoLevel>3</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>12400</MaxHP>
+		<MaxATK>330</MaxATK>
+		<MinHP>1820</MinHP>
+		<MinATK>100</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>0</PairBonus>
+		<Ability AbilityName="Prankster" AbilityType="GemSwap">
+			<Arg1>0,1</Arg1>
+			<Arg2>2</Arg2>
+			<ManaCost>10</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Turn all Yellow and Purple orbs into Blue orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="44" HeroName="Pink Kernelsprite" Type="Sprite">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>10</MaxLevel>
+		<MaxHP>2200</MaxHP>
+		<MaxATK>70</MaxATK>
+		<MinHP>120</MinHP>
+		<MinATK>10</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>7</PairBonus>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Hero>
+	<Hero FrameID="45" HeroName="Jaspersprite" Type="Sprite">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>30</MaxLevel>
+		<MaxHP>3700</MaxHP>
+		<MaxATK>150</MaxATK>
+		<MinHP>230</MinHP>
+		<MinATK>40</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<PairBonus>7</PairBonus>
+		<Ability AbilityName="Assist" AbilityType="GemSwap">
+			<Arg1>0</Arg1>
+			<Arg2>1</Arg2>
+			<ManaCost>8</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Turn all Yellow orbs into Purple orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="46" HeroName="Princess Jaspersprite" Type="Sprite">
+		<EvoLevel>3</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>12400</MaxHP>
+		<MaxATK>330</MaxATK>
+		<MinHP>1820</MinHP>
+		<MinATK>100</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>7</PairBonus>
+		<Ability AbilityName="MEOW" AbilityType="GemSwap">
+			<Arg1>0,3</Arg1>
+			<Arg2>1</Arg2>
+			<ManaCost>10</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Turn all Yellow and Red orbs into Purple orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="47" HeroName="Orange Kernelsprite" Type="Sprite">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>10</MaxLevel>
+		<MaxHP>2200</MaxHP>
+		<MaxATK>70</MaxATK>
+		<MinHP>120</MinHP>
+		<MinATK>10</MinATK>
+		<Color>0</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Hero>
+	<Hero FrameID="48" HeroName="Seppucrowsprite" Type="Sprite">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>30</MaxLevel>
+		<MaxHP>3700</MaxHP>
+		<MaxATK>150</MaxATK>
+		<MinHP>230</MinHP>
+		<MinATK>40</MinATK>
+		<Color>0</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="Assist" AbilityType="GemSwap">
+			<Arg1>0</Arg1>
+			<Arg2>3</Arg2>
+			<ManaCost>8</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Turn all Yellow orbs into Red orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="49" HeroName="Davesprite" Type="Sprite">
+		<EvoLevel>3</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>12400</MaxHP>
+		<MaxATK>330</MaxATK>
+		<MinHP>1820</MinHP>
+		<MinATK>100</MinATK>
+		<Color>0</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Soar" AbilityType="GemSwap">
+			<Arg1>0,4</Arg1>
+			<Arg2>3</Arg2>
+			<ManaCost>10</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Turn all Yellow and Green orbs into Red orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="50" HeroName="Green Kernelsprite" Type="Sprite">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>10</MaxLevel>
+		<MaxHP>2200</MaxHP>
+		<MaxATK>70</MaxATK>
+		<MinHP>120</MinHP>
+		<MinATK>10</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="none" AbilityType="none"/>
+	</Hero>
+	<Hero FrameID="51" HeroName="Becsprite" Type="Sprite">
+		<EvoLevel>2</EvoLevel>
+		<MaxLevel>30</MaxLevel>
+		<MaxHP>3700</MaxHP>
+		<MaxATK>150</MaxATK>
+		<MinHP>230</MinHP>
+		<MinATK>40</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>true</CanEvolve>
+		<Ability AbilityName="Assist" AbilityType="GemSwap">
+			<Arg1>0</Arg1>
+			<Arg2>4</Arg2>
+			<ManaCost>8</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Turn all Yellow orbs into Green orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="52" HeroName="Jadesprite" Type="Sprite">
+		<EvoLevel>3</EvoLevel>
+		<MaxLevel>50</MaxLevel>
+		<MaxHP>12400</MaxHP>
+		<MaxATK>330</MaxATK>
+		<MinHP>1820</MinHP>
+		<MinATK>100</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Dream" AbilityType="GemSwap">
+			<Arg1>0,2</Arg1>
+			<Arg2>4</Arg2>
+			<ManaCost>10</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Turn all Yellow and Blue orbs into Green orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="53" HeroName="Dad Egbert" Type="Guardian">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>1</MaxLevel>
+		<MaxHP>8500</MaxHP>
+		<MaxATK>620</MaxATK>
+		<MinHP>7620</MinHP>
+		<MinATK>620</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>0</PairBonus>
+		<Ability AbilityName="Fatherly Pride" AbilityType="Inspire">
+			<Arg1>2</Arg1>
+			<Arg2>2</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Increase team ATK by 2x for 2 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="54" HeroName="Mom Lalonde" Type="Guardian">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>1</MaxLevel>
+		<MaxHP>7400</MaxHP>
+		<MaxATK>810</MaxATK>
+		<MinHP>6440</MinHP>
+		<MinATK>810</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Martini?" AbilityType="DEFBreak">
+			<Arg1>0.4</Arg1>
+			<Arg2>4</Arg2>
+			<ManaCost>20</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Lower enemy Defense by 40% for 4 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="55" HeroName="Bro Strider" Type="Guardian">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>1</MaxLevel>
+		<MaxHP>6400</MaxHP>
+		<MaxATK>690</MaxATK>
+		<MinHP>5520</MinHP>
+		<MinATK>690</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Ambush" AbilityType="BoardSwap">
+			<Arg1>3,5</Arg1>
+			<ManaCost>32</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Change all orbs to Red and Skull orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="56" HeroName="Becquerel" Type="Guardian">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>1</MaxLevel>
+		<MaxHP>7900</MaxHP>
+		<MaxATK>830</MaxATK>
+		<MinHP>6990</MinHP>
+		<MinATK>830</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Fetch" AbilityType="BoardSwap">
+			<Arg1>3,4,2,0,1,5</Arg1>
+			<ManaCost>12</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Clear the puzzle board and replace it with a new one.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="57" HeroName="The Handmaid" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>13100</MaxHP>
+		<MaxATK>690</MaxATK>
+		<MinHP>2340</MinHP>
+		<MinATK>140</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Deathwish" AbilityType="BoardSwap">
+			<Arg1>4,3,5</Arg1>
+			<ManaCost>40</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Change all orbs to Red, Green, and Skull orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="58" HeroName="The Summoner" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>11500</MaxHP>
+		<MaxATK>720</MaxATK>
+		<MinHP>2000</MinHP>
+		<MinATK>140</MinATK>
+		<Color>0</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Revolution" AbilityType="Inspire">
+			<Arg1>3</Arg1>
+			<Arg2>2</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>0</ManaColor>
+			<Description>Increase team ATK by 3x for 2 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="59" HeroName="The Psioniic" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>9700</MaxHP>
+		<MaxATK>1150</MaxATK>
+		<MinHP>1610</MinHP>
+		<MinATK>230</MinATK>
+		<Color>0</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>8</PairBonus>
+		<Ability AbilityName="Guardian" AbilityType="Gravity">
+			<Arg1>0.2</Arg1>
+			<ManaCost>40</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Attack enemy for damage equal to 20% of their MAX HP. Ignores Defense.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="60" HeroName="The Signless" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>10700</MaxHP>
+		<MaxATK>810</MaxATK>
+		<MinHP>1830</MinHP>
+		<MinATK>160</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>8</PairBonus>
+		<Ability AbilityName="Martyr" AbilityType="Grudge">
+			<Arg1>50000</Arg1>
+			<ManaCost>40</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Attack for up to 50000 damage, based on current HP%.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="61" HeroName="The Disciple" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>11600</MaxHP>
+		<MaxATK>990</MaxATK>
+		<MinHP>2020</MinHP>
+		<MinATK>200</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>8</PairBonus>
+		<Ability AbilityName="Survivor" AbilityType="Resolve">
+			<Arg1>0.20</Arg1>
+			<Arg2>99</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Do not die if HP is above 20% when hit.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="62" HeroName="The Dolorosa" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>12900</MaxHP>
+		<MaxATK>810</MaxATK>
+		<MinHP>2300</MinHP>
+		<MinATK>160</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>8</PairBonus>
+		<Ability AbilityName="Nurturer" AbilityType="Renew">
+			<Arg1>2000</Arg1>
+			<Arg2>10</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Heal 2000 HP every turn for 10 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="63" HeroName="Neophyte Redglare" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>10500</MaxHP>
+		<MaxATK>670</MaxATK>
+		<MinHP>1790</MinHP>
+		<MinATK>130</MinATK>
+		<Color>4</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Pyralspite" AbilityType="DamagePercent">
+			<Arg1>41.3</Arg1>
+			<ManaCost>40</ManaCost>
+			<ManaColor>4</ManaColor>
+			<Description>Attack the enemy for 41.3x of your ATK.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="64" HeroName="Spinneret Mindfang" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>10100</MaxHP>
+		<MaxATK>920</MaxATK>
+		<MinHP>1710</MinHP>
+		<MinATK>180</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>6</PairBonus>
+		<Ability AbilityName="Spider's Bite" AbilityType="Poison">
+			<Arg1>1</Arg1>
+			<Arg2>10</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Deal damage equal to 1x of your Attack for 10 turns. Ignores Defense.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="65" HeroName="E%ecutor Darkleer" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>10100</MaxHP>
+		<MaxATK>980</MaxATK>
+		<MinHP>1710</MinHP>
+		<MinATK>200</MinATK>
+		<Color>2</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="E%ecute" AbilityType="DEFBreak">
+			<Arg1>0.9</Arg1>
+			<Arg2>4</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>2</ManaColor>
+			<Description>Lower enemy Defense by 90% for 4 turns.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="66" HeroName="The Grand Highblood" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>9900</MaxHP>
+		<MaxATK>990</MaxATK>
+		<MinHP>1670</MinHP>
+		<MinATK>200</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<Ability AbilityName="Dark Carnival" AbilityType="BoardSwap">
+			<Arg1>1,5</Arg1>
+			<ManaCost>40</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Change all orbs to Purple and Skull orbs.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="67" HeroName="Orphaner Dualscar" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>10000</MaxHP>
+		<MaxATK>900</MaxATK>
+		<MinHP>1680</MinHP>
+		<MinATK>180</MinATK>
+		<Color>1</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>6</PairBonus>
+		<Ability AbilityName="Ahab's Crosshairs" AbilityType="DamageFlat">
+			<Arg1>20000</Arg1>
+			<ManaCost>40</ManaCost>
+			<ManaColor>1</ManaColor>
+			<Description>Attack the enemy for 20000 damage.</Description>
+		</Ability>
+	</Hero>
+	<Hero FrameID="68" HeroName="Her Imperious Condescension" Type="Ancestor">
+		<EvoLevel>1</EvoLevel>
+		<MaxLevel>70</MaxLevel>
+		<MaxHP>9700</MaxHP>
+		<MaxATK>980</MaxATK>
+		<MinHP>1610</MinHP>
+		<MinATK>200</MinATK>
+		<Color>3</Color>
+		<Color2>-1</Color2>
+		<CanEvolve>false</CanEvolve>
+		<PairBonus>9</PairBonus>
+		<Ability AbilityName="Lifesteal" AbilityType="Lifesteal">
+			<Arg1>10</Arg1>
+			<Arg2>1</Arg2>
+			<ManaCost>40</ManaCost>
+			<ManaColor>3</ManaColor>
+			<Description>Deal 1000% of your ATK and heal for 100% of damage dealt.</Description>
+		</Ability>
+	</Hero>
+</HeroList>
