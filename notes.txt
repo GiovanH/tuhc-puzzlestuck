@@ -1,0 +1,9 @@
+Notes for people wanting to explore/hack this (probably just me)
+
+puzzlestuck.swf and the xml files are unused in favor of the standalone version of the swf.
+This is because of cross-domain weirdness preventing flash from properly reading from the local file server.
+I left in crossdomain.xml set up to work (it *should* work) anyway.
+
+The vueHook is exclusively for flash size backwards compatibility and will not be needed with collection version 2.0.7+, which introduces the width and height attributes for MediaEmbed elements.
+
+index.html isn't a true html file because it uses the MediaEmbed vue component.

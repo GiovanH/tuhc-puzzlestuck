@@ -9,6 +9,18 @@ module.exports = {
   trees: {
     './': 'assets://mod/puzzlestuck/',
   },
+  vueHooks: [{
+    // Backwards compatibility
+    matchName: "MediaEmbed",
+    data: {
+      indexedFlashProps($super){
+        return {
+          "puzzlestuckStandAlone": {width: 800, height: 480},
+          ...$super
+        }
+      }
+    }
+  }],
   edit(archive) {
     archive.tweaks.modHomeRowItems.unshift({
       href: "/puzzlestuck",
